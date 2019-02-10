@@ -1,1 +1,1 @@
-bot: python main.py
+bot: python sosiska_v_mazike.py
