@@ -30,7 +30,7 @@ def keyboard(message):
     b = random.randint(1, 50)
     key = types.ReplyKeyboardMarkup(True, True)
     key.row("Больше", "Меньше")
-    bot.send_message(message.chat.id, "Мое чило будет больше или меньше " + str(b) + "?", reply_markup=key)
+    bot.send_message(message.chat.id, "Мое число будет больше или меньше " + str(b) + "?", reply_markup=key)
 
 
 @bot.message_handler(content_types=["text"])
